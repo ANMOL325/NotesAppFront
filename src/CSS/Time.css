@@ -1,0 +1,55 @@
+.TimeHeading{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.PipeInputBorder{
+    text-align: center;
+    color: white
+}
+
+.PipeInput{
+    text-align: center;
+    width: 98vw;
+    height: 5vh;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 2px solid rgb(183, 183, 0);
+}
+.PipeListBorder{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.PipeList{
+    width: 99vw;
+    color: white;
+    border: 3px solid rgb(1, 255, 1);
+    margin-top: 10px;
+    background-color: black;
+}
+
+.PipeList > button{
+    float: right;
+    cursor: pointer;
+}
+.PipeList > button:hover{
+    background-color: red;
+    color: white;
+}
+.PipeList > button:active{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
