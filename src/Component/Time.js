@@ -16,7 +16,7 @@ const Time = () => {
   const [GlobalSecond, setGlobalSecond] = useState()
 
   useEffect(() => {
-    const socket = io('http://localhost:4000');
+    const socket = io('http://13.126.151.195:3000');
     setsocket(socket);
     socket.emit("PipeInfo",PipeName);
       socket.on("PipeList", (doc) => {
@@ -162,7 +162,7 @@ const Time = () => {
         }
       </div>
       <div className='PipeInputBorder'>
-      <input value={PipeName} onKeyDown={KeyPress} onChange={InputChange} className='PipeInput' placeholder='Enter Pipe Name'/>
+      <input value={PipeName} onKeyDown={KeyPress} onChange={InputChange} className='PipeInput' placeholder='Enter Pipes Order'/>
       </div>
 
       {
