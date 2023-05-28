@@ -16,7 +16,7 @@ const Time = () => {
   const [GlobalSecond, setGlobalSecond] = useState()
 
   useEffect(() => {
-    const socket = io('http://3.110.153.246:3000');
+    const socket = io('http://3.110.153.246:4000');
     setsocket(socket);
     socket.emit("PipeInfo",PipeName);
       socket.on("PipeList", (doc) => {
